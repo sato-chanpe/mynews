@@ -6,6 +6,7 @@
         @if (!is_null($headline)) {{-- is_null:nullであればtrue、それ以外であればfalseを返す ->$headlineが空なら飛ばして（実行しない）、データがあれば実行する --}}
             <div class="row">
                 <div class="headline col-md-10 mx-auto">
+                    <p>"試しにやってみた"</p>
                     <div class="row">
                         <div class="col-md-6">
                             <div class="caption mx-auto">
