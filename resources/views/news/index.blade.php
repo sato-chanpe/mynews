@@ -2,6 +2,7 @@
 
 @section('content')
     <div class="container">
+        <p>わぁぁぁぁぁっぁ</p>
         <hr color="#c0c0c0">
         @if (!is_null($headline)) {{-- is_null:nullであればtrue、それ以外であればfalseを返す ->$headlineが空なら飛ばして（実行しない）、データがあれば実行する --}}
             <div class="row">
